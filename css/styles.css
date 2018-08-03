@@ -141,7 +141,8 @@ nav h1 a {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1;
-  margin: 0 20px;
+  margin: 1rem;
+	text-transform: uppercase;
 }
 .filter-options select {
   background-color: white;
@@ -173,7 +174,7 @@ nav h1 a {
   font-family: Arial,sans-serif;
   margin: 15px;
   min-height: 380px;
-  padding: 0 30px 25px;
+  padding: 1.3rem;
   text-align: left;
   width: 270px;
 }
@@ -308,4 +309,17 @@ nav h1 a {
 	.filter-options {
 		justify-content: center;
 	}
+	.filter-options h2{
+		font-size:17px;
+	}
+	.filter-options select {
+		width: 100%;
+	}
+	nav h1 a{
+		font-size: 1rem;
+	}
+	#restaurants-list li {
+		width: 100%;
+	}
+
 }
